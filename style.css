@@ -1,0 +1,97 @@
+body {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    width: 16%;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+ul {
+    margin: 0px;
+}
+
+#main_header {
+    margin: 0px;
+    font-family: "Fredoka One",sans-serif;
+    background-color: teal;
+    color: cyan;
+    display: flex;
+    height: 11vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_content > div {
+    width: 70%;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#form_header {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+body>footer {
+    background-color: teal;
+    display: flex;
+    padding: 20px;
+    margin: left 20px;
+}
+
+#foot_nav {
+    list-style: none;
+    display: flex;
+}
+
+#foot_nav > div > li {
+    padding: 10px;
+}
+
+a {
+    color: aqua;
+}
+.article_header{
+    background-color: aquamarine;
+}
